@@ -10,7 +10,7 @@ In this example we're going to store the name `Bob` in LocalStorage and then ret
 
 In your `script.js` file add a new line as follows:
 
-```
+```JS
 localStorage.setItem("name", "Bob");
 ```
 
@@ -28,7 +28,7 @@ That's all well and good to see it in the inspector… but it's more helpful to 
 
 When you created local storage you used `setItem`. To get an item out you need to `getItem`:
 
-```
+```JS
 localStorage.getItem("name");
 ```
 
@@ -38,7 +38,7 @@ This will fetch the data with the key of `name`. Try wrapping that in an `alert(
 
 As you can `setItem` and `getItem`, you can remove an item with the `removeItem` function:
 
-```
+```JS
 localStorage.removeItem("name");
 ```
 
@@ -46,7 +46,7 @@ localStorage.removeItem("name");
 
 Updating local storage is easy - you just set it again.
 
-```
+```JS
 localStorage.setItem("name", "Tom");
 localStorage.setItem("name", "Harry");
 localStorage.setItem("name", "Susan");
