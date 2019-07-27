@@ -41,6 +41,22 @@ Finally add the `newContent` to the `container`:
 container.innerHTML = newContent;
 ```
 
+Refresh the page and see what happens.
+
+`innerHTML` can also be used to empty a container:
+
+```JS
+container.innerHTML = null;
+```
+
+You can also use it to append to the end, rather than entirely overwriting the content:
+
+```JS
+container.innerHTML += `
+  <p>This is another paragraph…</p>
+`;
+```
+
 ## Challenge
 
 With your [form](02-forms-and-events.md) update your event handler so that rather than alerting the name that is entered, it creates a new `<h1>` element with the name on it.
