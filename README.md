@@ -1,8 +1,6 @@
 # javascript-coding
 a short JavaScript programming course
 
-(very work-in-progress) 
-
 ## Sessions
 
 - [Basics](worksheets/00-programming-basics.md)
