@@ -1,5 +1,10 @@
 # Programming basics
 
+Here we are going to introduce a few basics of programming to help before you start on the first worksheet. We are going to be using Javascript as our language so let's talk about that first...
+
+## Javascript
+JavaScript (`JS`) runs in a web browser, and gives interactivity to webpages. This means we are going to mostly be using our browser to see the results of our code. The other thing we need is the browser console. This shows us logging output that we want to see while we're writing our code but we don't want visible on the webpage. We can get this up in our browser by (in most browsers) hitting F12 or right-clicking on a webpage and clicking "Inspect" (or similar, depending on your browser).
+
 ## Variables
 Try typing this on the console:
 

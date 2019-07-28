@@ -2,7 +2,7 @@
 
 One of the first tasks that everyone does when learning a new programming language is to get the program to say 'Hello World'. It's a good place to start.
 
-JavaScript (`JS`) runs in a web browser, so before we can start writing `JS` we need to first create a web page (an `HTML` file). Then, with the `HTML` we can include our `JS`
+JavaScript (`JS`) runs in a web browser, so before we can start writing `JS` we need to first create a web page (an `HTML` file). Then, with the `HTML` we can include our `JS`.
 
 ## Hello World in HTML…
 
@@ -64,7 +64,7 @@ This tag can be put in almost anywhere in the `HTML` tag, but to keep everything
 </html>
 ```
 
-Now when you reload the page you should get an alert that says 'Alert!' But what about the line `console.log()` that we added? That isn't seen on the page, but is hidden in the Javascript console. We'll be using this a lot in the future… Go into your browser, right click on the page and select `inspect`. In the window that appeared you should see the text `Console log!` displayed.
+Now when you reload the page you should get an alert that says 'Alert!' But what about the line `console.log()` that we added? That isn't seen on the page, but is hidden in the Javascript console. We'll be using this a lot in the future… Go into your browser, right click on the page and select `inspect`. In the window that appeared you should see the text `Console log!` displayed in the console section.
 
 ## Explore
 
