@@ -8,7 +8,7 @@ JavaScript (`JS`) runs in a web browser, so before we can start writing `JS` we 
 
 If you have done the Web Building LiveWires course this will be _very_ familiar to you.
 
-Open up your text editor and create a new file called `index.htm`. Then inside your `HTML` file write the following:
+Open up your text editor (like Visual Studio Code, or Sublime text)and create a new file called `index.htm`. Then inside your `HTML` file write the following:
 
 ```HTML
 <!DOCTYPE html>
