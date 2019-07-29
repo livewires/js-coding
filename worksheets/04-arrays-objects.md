@@ -1,11 +1,13 @@
 # Arrays and objects
 
 ## The concept
+
 So we've seen that Javascript can manipulate things like words and numbers but often we'll find that we actually want to collect those kinds of things into collections. There are two broad concepts here: arrays and objects. Arrays are essentially lists of items (we call them each item an element) and objects are structures that can hold a set of key-value pairs (like a car could have key-values including manufacturer, model, colour, etc - we call each of these properties). Therefore, many values can be stored in a single object variable, much like an array. However, instead of using an index to find a value, the name of the property can be used.
 
 Let's start with arrays...
 
 ## Creating an array
+
 The easiest way to create a JavaScript array is using square brackets `[...]` also known as an array literal. Let's create an array called `dorms` which stores the names of all the dorms at LiveWires. Write this in your `script.js` file.
 
 ```JS
@@ -24,7 +26,7 @@ Log to the console the 1st value from the array (clue: which index does JavaScri
 
 We’ve so far used code to find and log to the console single values from the array. If an array is small enough, it would be quite easy to find out many or all the values in an array using the same code repeated but changing each index. However, this would be much less efficient for larger arrays.
 
-A conditional `for` loop can be used to apply methods to multiple values in an array. 
+A conditional `for` loop can be used to apply methods to multiple values in an array.
 
 ```JS
 for (i = 0, i < 5, i++)
@@ -35,7 +37,7 @@ for (i = 0, i < 5, i++)
 The first statement `i = 0` sets the variable to be used before the loop starts. The second state `i < 5` indicates the condition(s) in which the loop will run. The third statement `i++` increases the value of the variable i each time the code block in the loop is executed. Here we would need to use the loop index variable (`i`) to access the array value - like `dorms[i]`.
 
 For an array there is an alternative way to loop through all the contents as shown below. This will apply the code block for each value in the array.
- 
+
 ```JS
 for (x in array) {
   // code block to be executed
@@ -43,9 +45,11 @@ for (x in array) {
 ```
 
 ### Challenge
+
 Use one of these for loops to log to the console all the values in your `dorms` array on separate lines?
 
 ## Push in and pop out of arrays
+
 Sometimes we actually need to add something else to our array. The easiest way to do this is to use `dorms.push(newElement)`. This will add the new item to the end of the list.
 
 Try adding adding the non-YP dorm `'revolving'` to your dorms list using `push`. Put this before your console logging loop so you see your new element logged out.
@@ -59,7 +63,6 @@ var last = dorms.pop();
 Here, the `last` variable will be the element that is taken out and the array will no longer have that element.
 
 Have a play around with `push`, `pop` and your console logging loop to see what this does. Also try logging out the `last` element when popping.
-
 
 That's the array basics out the way, now let's look at objects...
 
@@ -85,7 +88,30 @@ Do this and then log the car to console to see it with the updated property valu
 
 ## Challenge
 
-Arrays can also be properties in objects and objects can be in arrays. Let's create an array of objects. Use a for loop, like the one `for (i = 0, i < 5, i++)` above. For each iteration of the loop, create a new object and `push` it to an array. Use the index number of the loop in at least one of the properties in your object structure to distinguish them from each other.
+Arrays can also be properties in objects and objects can be in arrays. Let's create an array of objects.
+
+Start by creating an array of colour names.
+
+Then create a different array of car names.
+
+Then, using a loop, like the one above (`for (i = 0, i < 5, i++)`) generate an object that contains a random car name and a random color. The aim is to get an object that looks like this:
+
+```JSON
+{
+  'car': 'ford',
+  'color': 'signal orange'
+}
+```
+
+You can select a random item from an array using this code:
+
+```JS
+var randomColour = colours[Math.floor(Math.random() * colours.length)];
+```
+
+Once you have created your new object, push it to a `cars[]` array.
+
+After the loop, `console.log()` your `cars[]` array.
 
 ### Stretch goals
 
