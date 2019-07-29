@@ -29,7 +29,7 @@ We’ve so far used code to find and log to the console single values from the a
 A conditional `for` loop can be used to apply methods to multiple values in an array.
 
 ```JS
-for (i = 0, i < 5, i++)
+for (i = 0; i < 5; i++)
    // code block to be executed
 }
 ```
@@ -94,7 +94,7 @@ Start by creating an array of colour names.
 
 Then create a different array of car names.
 
-Then, using a loop, like the one above (`for (i = 0, i < 5, i++)`) generate an object that contains a random car name and a random color. The aim is to get an object that looks like this:
+Then, using a loop, like the one above (`for (i = 0; i < 5; i++)`) generate an object that contains a random car name and a random color. The aim is to get an object that looks like this:
 
 ```JS
 {
