@@ -14,3 +14,8 @@ Using what you have learnt over these work sheets work out how to make a to-do l
 - If you have done the `HTML` and `CSS` course; could you add `CSS` to improve the layout and design of the to-do list?
 
 Done this? Well done! But there's another one! - [Challenge 2: Scoreboard](worksheets/08-scoreboard.md).
+
+## Helpful extras
+
+Check out [MDN](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/JSON/stringify#Example_of_using_JSON.stringify()_with_localStorage) to see how to put an array into local storage using `JSON.stringify` and `JSON.parse`.
+
