@@ -1,18 +1,24 @@
 # Arrays and objects
 
-## Arrays
-Arrays are a special type of variable that can store multiple values. The easiest way to create a JavaScript array is using square brackets `[...]` also known as an array literal.
+## The concept
+So we've seen that Javascript can manipulate things like words and numbers but often we'll find that we actually want to collect those kinds of things into collections. There are two broad concepts here: arrays and objects. Arrays are essentially lists of items (we call them each item an element) and objects are structures that can hold a set of key-value pairs (like a car could have key-values including manufacturer, model, colour, etc - we call each of these properties). Therefore, many values can be stored in a single object variable, much like an array. However, instead of using an index to find a value, the name of the property can be used.
 
+Let's start with arrays...
+
+## Creating an array
+The easiest way to create a JavaScript array is using square brackets `[...]` also known as an array literal. Let's create an array called `dorms` which stores the names of all the dorms at LiveWires. Write this in your `script.js` file.
+
+```JS
+var dorms = ['durdle', 'bifold', 'gullwing', 'automatic', 'barn']
 ```
-var array = [value1, ..., valueX]
-```
 
-1. Create an array called `dorms` which stores the names of all the dorms at LiveWires
+Each value in the array has an index which tells you where in the array the value is stored. We need to remember that in JavaScript that the first index is always zero. The statement `array[index]` will give you the value located at that index in the array.
 
-Each value in the array has an index which tells you where in the array the value is stored. Remember in JavaScript that the first index is always zero. The statement `array[index]` will give you the value located at that index in the array.
+So for example you can use `dorms[1]` to find the 2nd value in your dorms array.
 
-2. Use `dorms[1]` to find the 2nd value in your dorms array.
-3. Log to the console the 1st value from the array (clue: which index does JavaScript start at?)
+### Challenge
+
+Log to the console the 1st value from the array (clue: which index does JavaScript start at?)
 
 ## Looping through arrays
 
@@ -20,37 +26,67 @@ We’ve so far used code to find and log to the console single values from the a
 
 A conditional `for` loop can be used to apply methods to multiple values in an array. 
 
-```
+```JS
 for (i = 0, i < 5, i++)
    // code block to be executed
 }
 ```
 
-The first statement `i = 0` sets the variable to be used before the loop starts. The second state `i < 5` indicates the condition(s) in which the loop will run. The third statement `i++` increases the value of the variable i each time the code block in the loop is executed.
+The first statement `i = 0` sets the variable to be used before the loop starts. The second state `i < 5` indicates the condition(s) in which the loop will run. The third statement `i++` increases the value of the variable i each time the code block in the loop is executed. Here we would need to use the loop index variable (`i`) to access the array value - like `dorms[i]`.
 
 For an array there is an alternative way to loop through all the contents as shown below. This will apply the code block for each value in the array.
  
-```
+```JS
 for (x in array) {
   // code block to be executed
 }
 ```
 
-4. How could you use one of these for loops to log to the console all the values in your dorms array on separate lines?
+### Challenge
+Use one of these for loops to log to the console all the values in your `dorms` array on separate lines?
+
+## Push in and pop out of arrays
+Sometimes we actually need to add something else to our array. The easiest way to do this is to use `dorms.push(newElement)`. This will add the new item to the end of the list.
+
+Try adding adding the non-YP dorm `'revolving'` to your dorms list using `push`. Put this before your console logging loop so you see your new element logged out.
+
+We can also take the last-added element out of the array using `pop`.
+
+```JS
+var last = dorms.pop();
+```
+
+Here, the `last` variable will be the element that is taken out and the array will no longer have that element.
+
+Have a play around with `push`, `pop` and your console logging loop to see what this does. Also try logging out the `last` element when popping.
 
 
-## The concept
+That's the array basics out the way, now let's look at objects...
 
-## Creating an array
+## Creating an object
 
-## Loop through an array
+The easiest way to create a JavaScript object is using curly brackets `{...}`, also known as an object literal. Let's create a car object. Put this in your script file.
 
-Console log the results of the array
+```JS
+var car = {make: 'VW', model: 'Beetle'}
+```
 
-## Push and pop in and out of arrays
+## Accessing and modifying properties
 
-## Objects
+You can access properties using a `.` after the object name. So we can use `car.make` to get the result `'VW'` - try this in the console.
 
-An array is a special type of object. Objects much like real life objects have properties, for example an object describing a car could have properties including manufacturer, model, colour, etc. Therefore, many values can be stored in a single object variable, much like an array. However, instead of using an index to find a value, the name of the property can be used.
+We can use this to set the properties too.
 
-The easiest way to create a JavaScript object is using curly brackets `{...}`, also known as an object literal.
+```JS
+car.model = 'passat';
+```
+
+Do this and then log the car to console to see it with the updated property value.
+
+## Challenge
+
+Arrays can also be properties in objects and objects can be in arrays. Let's create an array of objects. Use a for loop, like the one `for (i = 0, i < 5, i++)` above. For each iteration of the loop, create a new object and `push` it to an array. Use the index number of the loop in at least one of the properties in your object structure to distinguish them from each other.
+
+### Stretch goals
+
+- Print out the results of your loop on screen, printing each of the properties with keys and values in a list with a clear separation between each different object.
