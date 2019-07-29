@@ -42,7 +42,7 @@ What will happen instead is an `alert()` will popup.
 Did you see that the submit button had a `value` in it? All input elements in `HTML` have values, and `JS` can read them too:
 
 ```JS
-var buttonValue = nameFormButton.value();
+var buttonValue = nameFormButton.value;
 ```
 
 Try modifying your event so that rather than alerting 'you clicked a button' it alerts the the value of the button…
