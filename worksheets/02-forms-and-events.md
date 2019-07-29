@@ -56,7 +56,7 @@ You can create a text input like this:
 ```HTML
 <div>
   <label for="name">Name:</label>
-  <input class="js-name-field" type="name" placeholder="Type in your name…" />
+  <input class="js-name-field" type="text" placeholder="Type in your name…" />
 </div>
 ```
 
