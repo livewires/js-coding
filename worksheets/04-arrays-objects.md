@@ -96,7 +96,7 @@ Then create a different array of car names.
 
 Then, using a loop, like the one above (`for (i = 0, i < 5, i++)`) generate an object that contains a random car name and a random color. The aim is to get an object that looks like this:
 
-```JSON
+```JS
 {
   'car': 'ford',
   'color': 'signal orange'
