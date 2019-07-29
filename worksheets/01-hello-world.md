@@ -71,3 +71,6 @@ Now when you reload the page you should get an alert that says 'Alert!' But what
 Experiment with putting different content into `alert()` and `console.log()`.
 
 Try putting in some simple maths like `1 + 1`…
+
+
+Now let's look at some [Forms and Events](02-forms-and-events.md).

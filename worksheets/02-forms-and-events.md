@@ -59,3 +59,5 @@ You can create a text input like this:
   <input class="js-name-field" type="name" placeholder="Type in your name…" />
 </div>
 ```
+
+Next, lets look at [Local Storage](03-local-storage.md).

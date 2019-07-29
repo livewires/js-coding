@@ -90,3 +90,5 @@ Arrays can also be properties in objects and objects can be in arrays. Let's cre
 ### Stretch goals
 
 - Print out the results of your loop on screen, printing each of the properties with keys and values in a list with a clear separation between each different object.
+
+Let's start playing with the [Document Object Model](05-dom-manipulation.md).
