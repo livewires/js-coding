@@ -62,5 +62,6 @@ container.innerHTML += `
 With your [form](02-forms-and-events.md) update your event handler so that rather than alerting the name that is entered, it creates a new `<h1>` element with the name on it.
 
 As a stretch task, when you add the name add a button next to it that will allow you to delete it…
+You can also combine this with your work from [local storage](03-local-storage.md) - if the name exists in Local Storage, rather than displaying the form, make it display the message `hello {name}`,
 
 Let's dive deeper into arrays, with some [splicing](06-splicing-arrays.md).

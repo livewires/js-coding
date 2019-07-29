@@ -59,7 +59,6 @@ After running these three lines `name` will be set to Susan.
 In the last worksheet you explored [forms and events](02-forms-and-events.md).
 
 1. Make an text input asks the user's name, stores it to Local Storage
-2. Then if the name exists in Local Storage, rather than displaying the form, it displays the message `hello #{name}`
-3. Add a button which deletes the `name` from Local Storage
+2. Add a button which deletes the `name` from Local Storage
 
 Once you've done those, move onto [Arrays and Objects](04-arrays-objects.md).

@@ -49,7 +49,7 @@ Try modifying your event so that rather than alerting 'you clicked a button' it 
 
 ## Challenge
 
-You now know how to select elements with `JS`, get their values, even trigger events when a user interacts with them. Try writing some code that when the submit button is pressed the page pops up an alert saying `Hello #{name}` taking their name from a text input.
+You now know how to select elements with `JS`, get their values, even trigger events when a user interacts with them. Try writing some code that when the submit button is pressed the page pops up an alert saying `Hello {name}` taking their name from a text input to display instead of `{name}`.
 
 You can create a text input like this:
 
