@@ -13,7 +13,7 @@ Using what you have learnt over these work sheets work out how to make a to-do l
 - Could you make the list keep the completed tasks, but visually show that they are complete?
 - If you have done the `HTML` and `CSS` course; could you add `CSS` to improve the layout and design of the to-do list?
 
-Done this? Well done! But there's another one! - [Challenge 2: Scoreboard](worksheets/08-scoreboard.md).
+Done this? Well done! But there's another one! - [Challenge 2: Scoreboard](worksheets/09-scoreboard.md).
 
 ## Helpful extras
 
@@ -32,4 +32,4 @@ When you need to read what you put into Local Storage back out, you'll need to `
 var numberArray = JSON.parse(localStorage.getItem('numbers'));
 ```
 
- You can read more about this process here: [MDN - Stringify](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/JSON/stringify#Example_of_using_JSON.stringify()_with_localStorage)
+You can read more about this process here: [MDN - Stringify](<https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/JSON/stringify#Example_of_using_JSON.stringify()_with_localStorage>)

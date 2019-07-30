@@ -43,4 +43,4 @@ colours.splice(start_index, delete_count, value_to_add);
 
 Similarly… how might you swap the word `teal` to `green`?
 
-Let's try and make a thing - [Challenge 1: ToDo List](07-challenge-todo.md).
+Let's try and make a thing - [Challenge 1: ToDo List](08-challenge-todo.md).

@@ -117,4 +117,4 @@ After the loop, `console.log()` your `cars[]` array.
 
 - Console.log the results of your loop, printing each of the properties with keys and values in a list with a clear separation between each different object.
 
-Let's start playing with the [Document Object Model](05-dom-manipulation.md).
+All done? Time to learn about [Functions](05-functions.md).
