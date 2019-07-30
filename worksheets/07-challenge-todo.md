@@ -17,5 +17,19 @@ Done this? Well done! But there's another one! - [Challenge 2: Scoreboard](works
 
 ## Helpful extras
 
-Check out [MDN](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/JSON/stringify#Example_of_using_JSON.stringify()_with_localStorage) to see how to put an array into local storage using `JSON.stringify` and `JSON.parse`.
+Local Storage can only contain strings. This means that if you wanted store an array in it you'll need to first convert it into a string...
 
+To convert an array into a string you need to `stringify()` it:
+
+```JS
+var arrayToString = JSON.stringify(['one','two','three']);
+localStorage.setItem('number', arrayToString);
+```
+
+When you need to read what you put into Local Storage back out, you'll need to `parse()` into an array:
+
+```JS
+var numberArray = JSON.parse(localStorage.getItem('numbers'));
+```
+
+ You can read more about this process here: [MDN - Stringify](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/JSON/stringify#Example_of_using_JSON.stringify()_with_localStorage)
