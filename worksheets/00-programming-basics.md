@@ -8,7 +8,7 @@ JavaScript (`JS`) runs in a web browser, and gives interactivity to webpages. Th
 ## Variables
 Try typing this on the console:
 
-```
+```js
 var a = 17;
 ```
 
@@ -20,7 +20,7 @@ Now try typing `a` on the console. You should see that you get back
 
 Try typing these:
 
-```
+```js
 var b = 12;
 var c = a + b;
 ```
@@ -31,7 +31,7 @@ A line starting with `var` is a variable definition. You should use this wheneve
 
 You can also change the value of a variable. That’s why it’s a “variable”: because its value can vary. Try this:
 
-```
+```js
 b = 2;
 ```
 
@@ -41,7 +41,7 @@ You’ve just changed the value of `b`. Remember that you defined `c` to be `a +
 
 You should see that `c` has stayed the same. Now try assigning it again:
 
-```
+```js
 c = a + b;
 ```
 
