@@ -29,7 +29,7 @@ We’ve so far used code to find and log to the console single values from the a
 A conditional `for` loop can be used to apply methods to multiple values in an array.
 
 ```JS
-for (i = 0; i < 5; i++)
+for (i = 0; i < 5; i++) {
    // code block to be executed
 }
 ```
