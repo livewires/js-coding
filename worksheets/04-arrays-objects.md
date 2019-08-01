@@ -24,6 +24,8 @@ Log to the console the 1st value from the array (clue: which index does JavaScri
 
 ## Looping through arrays
 
+### For loop
+
 We’ve so far used code to find and log to the console single values from the array. If an array is small enough, it would be quite easy to find out many or all the values in an array using the same code repeated but changing each index. However, this would be much less efficient for larger arrays.
 
 A conditional `for` loop can be used to apply methods to multiple values in an array.
@@ -34,12 +36,20 @@ for (i = 0; i < 5; i++) {
 }
 ```
 
-The first statement `i = 0` sets the variable to be used before the loop starts. The second state `i < 5` indicates the condition(s) in which the loop will run. The third statement `i++` increases the value of the variable i each time the code block in the loop is executed. Here we would need to use the loop index variable (`i`) to access the array value - like `dorms[i]`.
+Let's break this down a bit. Inside the `( )` we set up the loop using the variable `i` to control it, using three statements, separated by semi-colons (`;`).
 
-For an array there is an alternative way to loop through all the contents as shown below. This will apply the code block for each value in the array.
+* The first statement `i = 0` declares `i` (notice we don't need `var` here) and sets it to the value it should start with (this will nearly always be 0).
+* The second statement `i < 5` indicates the condition(s) in which the loop will run. This is checked each time before we run the code inside the `{ }`. Whilst it resolves to `true` the loop will keep going round. The first time it resolves to `false` it will not run again.
+* The third statement `i++` increases the value of the variable `i` by 1 each time the code block in the loop is executed.
+
+Then we can put code inside the loop, between the `{ }`. We would need to use `i` as an array index to access the array value - like `dorms[i]`. So the first time round the loop this would be the same as `dorms[0]`, second time `dorms[1]` and so on and the last time would be `dorms[4]`.
+
+### For..in loop
+
+For an array there is an alternative way to loop through all the contents as shown below. `array` would need to be the name of the array you are looping around and then `item` would be the individual item in the array. This will run the code block for each item in the array. 
 
 ```JS
-for (x in array) {
+for (item in array) {
   // code block to be executed
 }
 ```
@@ -94,7 +104,7 @@ Start by creating an array of colour names.
 
 Then create a different array of car names.
 
-Then, using a loop, like the one above (`for (i = 0; i < 5; i++)`) generate an object that contains a random car name and a random color. The aim is to get an object that looks like this:
+Then, using a loop, like the one [above](#for%20loop) generate an object that contains a random car name and a random color. The aim is to get an object that looks like this:
 
 ```JS
 {
