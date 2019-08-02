@@ -8,15 +8,15 @@ Let's start with arrays...
 
 ## Creating an array
 
-The easiest way to create a JavaScript array is using square brackets `[...]` also known as an array literal. Let's create an array called `dorms` which stores the names of all the dorms at LiveWires. Write this in your `script.js` file.
+The easiest way to create a JavaScript array is using square brackets `[...]` also known as an array literal. Let's create an array called `cars` which stores the names of some car makes. Write this in your `script.js` file.
 
 ```JS
-var dorms = ['durdle', 'bifold', 'gullwing', 'automatic', 'barn']
+var cars = ['toyota', 'suzuki', 'bmw', 'peugot', 'jaguar']
 ```
 
 Each value in the array has an index which tells you where in the array the value is stored. We need to remember that in JavaScript that the first index is always zero. The statement `array[index]` will give you the value located at that index in the array.
 
-So for example you can use `dorms[1]` to find the 2nd value in your dorms array.
+So for example you can use `cars[1]` to find the 2nd value in your cars array.
 
 ### Challenge
 
@@ -42,7 +42,7 @@ Let's break this down a bit. Inside the `( )` we set up the loop using the varia
 * The second statement `i < 5` indicates the condition(s) in which the loop will run. This is checked each time before we run the code inside the `{ }`. Whilst it resolves to `true` the loop will keep going round. The first time it resolves to `false` it will not run again.
 * The third statement `i++` increases the value of the variable `i` by 1 each time the code block in the loop is executed.
 
-Then we can put code inside the loop, between the `{ }`. We would need to use `i` as an array index to access the array value - like `dorms[i]`. So the first time round the loop this would be the same as `dorms[0]`, second time `dorms[1]` and so on and the last time would be `dorms[4]`.
+Then we can put code inside the loop, between the `{ }`. We would need to use `i` as an array index to access the array value - like `cars[i]`. So the first time round the loop this would be the same as `cars[0]`, second time `cars[1]` and so on and the last time would be `cars[4]`.
 
 ### For..in loop
 
@@ -56,18 +56,18 @@ for (item in array) {
 
 ### Challenge
 
-Use one of these for loops to log to the console all the values in your `dorms` array on separate lines?
+Use one of these for loops to log to the console all the values in your `cars` array on separate lines?
 
 ## Push in and pop out of arrays
 
-Sometimes we actually need to add something else to our array. The easiest way to do this is to use `dorms.push(newElement)`. This will add the new item to the end of the list.
+Sometimes we actually need to add something else to our array. The easiest way to do this is to use `cars.push(newElement)`. This will add the new item to the end of the list.
 
-Try adding the non-YP dorm `'revolving'` to your dorms list using `push`. Put this before your console logging loop so you see your new element logged out.
+Try adding `'renault'` to your cars list using `push`. Put this before your console logging loop so you see your new element logged out.
 
 We can also take the last-added element out of the array using `pop`.
 
 ```JS
-var last = dorms.pop();
+var last = cars.pop();
 ```
 
 Here, the `last` variable will be the element that is taken out and the array will no longer have that element.
