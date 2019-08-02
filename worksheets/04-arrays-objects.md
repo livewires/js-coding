@@ -62,7 +62,7 @@ Use one of these for loops to log to the console all the values in your `dorms` 
 
 Sometimes we actually need to add something else to our array. The easiest way to do this is to use `dorms.push(newElement)`. This will add the new item to the end of the list.
 
-Try adding adding the non-YP dorm `'revolving'` to your dorms list using `push`. Put this before your console logging loop so you see your new element logged out.
+Try adding the non-YP dorm `'revolving'` to your dorms list using `push`. Put this before your console logging loop so you see your new element logged out.
 
 We can also take the last-added element out of the array using `pop`.
 
