@@ -78,6 +78,8 @@ function conversation() {
 
 Try calling the `conversation()` function on the console. See how it did all three things in order? Functions are lists of things to do. When you call the function, it does all the things in its definition.
 
+You will see more about functions [later on](05-functions)
+
 ## Statements
 We’ve been putting semicolons `;` in various places. A semicolon marks the end of a statement. So far we have been writing one line for each statement, but this is not required. With a few exceptions, you can add extra spaces and newlines anywhere you like. The following statements all mean exactly the same thing:
 
@@ -95,6 +97,27 @@ console.log(
 ```
 
 Use spaces and newlines to make your program easy to read. When you’re just starting out, it won’t be immediately clear to you what makes things easier to read, so just try to follow the patterns that we use in the tutorials. As you read and write more programs this will start to make sense to you.
+
+## Comments
+
+Sometimes we want to be able to write something in our code file without Javascript trying to execute it. This might be to help explain something (so we or others can understand it later) and to remind us that what we wanted to do later. We also use them in our courses so that we can show you where you need to put things in code examples.
+
+To write a comment, start the line with double slash `//`. Anything you write after this on that line will be ignored when the code is run.
+
+```JS
+// this is a comment
+this is not a comment and will cause errors
+var example // you can also write comments at the end of lines
+```
+
+You can also write a multi-line comment, though we probably won't use this in this course. You can do this using `/*` to start and `/*` to end.
+
+```JS
+/* This is a multi-line comment
+We can use this for longer pieces of text
+*/
+var thing
+```
 
 
 Now you can go onto [Hello World](01-hello-world.md).
