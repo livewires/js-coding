@@ -1,6 +1,6 @@
-# javascript-coding
+# Javascript Coding
 
-a short JavaScript programming course
+A short JavaScript programming course for [LiveWires](https://livewires.org.uk)
 
 ## Sessions
 
@@ -14,3 +14,7 @@ a short JavaScript programming course
 - [Splicing arrays](worksheets/07-splicing-arrays.md)
 - [Challenge 1: ToDo List](worksheets/08-challenge-todo.md)
 - [Challenge 2: Scoreboard](worksheets/09-scoreboard.md)
+
+## About LiveWires
+
+[LiveWires](https://livewires.org.uk) is a week long technical activity holiday for 12-15 year olds hosted by [Scripture Union](https://scriptureunion.org.uk). Our aim is to help young people to start their summer learning more about Jesus and technology. Find out more at [LiveWires](livewires.org.uk).
