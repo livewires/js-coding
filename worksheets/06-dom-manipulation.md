@@ -10,7 +10,7 @@ var htmlElement = document.querySelector('.js-class-name');
 
 ## Creating new elements
 
-In your `HTML` you need a container to inject a new element into with Javascript. So over in `index.htm` create a new `div` like this:
+In your `HTML` you need a container to inject a new element into with Javascript. So over in `index.html` create a new `div` like this:
 
 ```HTML
 <div class="js-container">

@@ -8,7 +8,7 @@ JavaScript (`JS`) runs in a web browser, so before we can start writing `JS` we 
 
 If you have done the Web Building LiveWires course this will be _very_ familiar to you.
 
-Open up your text editor (like Visual Studio Code, or Sublime text)and create a new file called `index.htm`. Then inside your `HTML` file write the following:
+Open up your text editor (like Visual Studio Code, or Sublime text)and create a new file called `index.html`. Then inside your `HTML` file write the following:
 
 ```HTML
 <!DOCTYPE html>
@@ -51,9 +51,9 @@ Next in your `script.js` file add the lines…
 
 Save that, and head back to your browser and refresh the page…
 
-Nothing happened because `index.htm` doesn't know about `script.js` We need to let the `HTML` know that `script.js` exists. We can do that by adding a `<script>` tag to the `HTML`.
+Nothing happened because `index.html` doesn't know about `script.js` We need to let the `HTML` know that `script.js` exists. We can do that by adding a `<script>` tag to the `HTML`.
 
-This tag can be put in almost anywhere in the `HTML` tag, but to keep everything clean and separate we'll put it as the last thing before the closing `</body>` tag. Go back into `index.htm` and update the contents of `<body>`:
+This tag can be put in almost anywhere in the `HTML` tag, but to keep everything clean and separate we'll put it as the last thing before the closing `</body>` tag. Go back into `index.html` and update the contents of `<body>`:
 
 ```HTML
   ...

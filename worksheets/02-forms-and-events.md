@@ -4,7 +4,7 @@ As we saw in the first worksheet, `HTML` provides the page structure, while `JS`
 
 ## HTML form…
 
-Let's add a simple `HTML` form to our page. Go into your `index.htm` file and add the following lines in the `<body>` tag before the `<script src="script.js"></script>` line:
+Let's add a simple `HTML` form to our page. Go into your `index.html` file and add the following lines in the `<body>` tag before the `<script src="script.js"></script>` line:
 
 ```HTML
 <form>
