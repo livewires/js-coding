@@ -17,4 +17,4 @@ A short JavaScript programming course for [LiveWires](https://livewires.org.uk)
 
 ## About LiveWires
 
-[LiveWires](https://livewires.org.uk) is a week long technical activity holiday for 12-15 year olds hosted by [Scripture Union](https://scriptureunion.org.uk). Our aim is to help young people to start their summer learning more about Jesus and technology. Find out more at [LiveWires](livewires.org.uk).
+[LiveWires](https://livewires.org.uk) is a week long technical activity holiday for 12-15 year olds hosted by [Scripture Union](https://scriptureunion.org.uk). Our aim is to help young people to start their summer learning more about Jesus and technology. Find out more at [LiveWires.org.uk](livewires.org.uk).
