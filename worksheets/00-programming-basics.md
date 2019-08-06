@@ -2,8 +2,27 @@
 
 Here we are going to introduce a few basics of programming to help before you start on the first worksheet. We are going to be using Javascript as our language so let's talk about that first...
 
-## Javascript
+## JavaScript
 JavaScript (`JS`) runs in a web browser, and gives interactivity to webpages. This means we are going to mostly be using our browser to see the results of our code. The other thing we need is the browser console. This shows us logging output that we want to see while we're writing our code but we don't want visible on the webpage. We can get this up in our browser by (in most browsers) hitting F12 or right-clicking on a webpage and clicking "Inspect" (or similar, depending on your browser).
+
+## The JavaScript calculator
+
+Programming languages can perform many mathematical functions just like a calculator.
+
+`+` for addition
+`-` for subtraction
+`*` for multiplication
+`/` for division
+
+Why not try typing some maths in the console?
+
+- Take a two-digit number and add a one-digit number
+
+- Divide this number by another one-digit number
+
+- Multiply by a two-digit number
+
+- Subtract a number so that you have exactly 100 as your final answer
 
 ## Variables
 Try typing this on the console:
@@ -16,7 +35,7 @@ You’ll see that it returns the value as `undefined`. undefined just means that
 
 Now try typing `a` on the console. You should see that you get back
 
-1. Variables are a way of giving names to values so that you can use them later.
+- Variables are a way of giving names to values so that you can use them later.
 
 Try typing these:
 
