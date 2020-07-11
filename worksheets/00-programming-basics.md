@@ -25,7 +25,7 @@ Why not try typing some maths in the console?
 - Subtract a number so that you have exactly 100 as your final answer
 
 ## Variables
-Try typing this on the console:
+Try typing this on the console, and press enter to execute the instruction:
 
 ```js
 var a = 17;
