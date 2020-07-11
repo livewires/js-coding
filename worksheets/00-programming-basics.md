@@ -74,7 +74,7 @@ Start by typing this on the console:
 function sayHello() { console.log('Hello!'); }
 ```
 
-It won’t do anything just yet. This thing is a function definition. You can recognise it because it starts with the word `function`. It creates a new function named `sayHello`.
+It won’t do anything just yet. This thing is a function definition. It creates a block of code that can be executed later. You can recognise it because it starts with the word `function`. This one creates a new function named `sayHello`.
 
 Now try typing this:
 
@@ -86,6 +86,8 @@ This thing is a function call. You can recognise it because it’s a name with `
 
 Let’s make a larger function:
 
+(You can use Shift+Enter to write on a new line without running the code.)
+
 ```JS
 function conversation() {
   sayHello();
@@ -93,7 +95,7 @@ function conversation() {
   console.log('Goodbye');
 }
 ```
-(You can use Shift+Enter to write on a new line without running the code.)
+
 
 Try calling the `conversation()` function on the console. See how it did all three things in order? Functions are lists of things to do. When you call the function, it does all the things in its definition.
 

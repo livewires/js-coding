@@ -20,7 +20,7 @@ This does what it says on the tin, it creates a record identified with the key `
 
 Now when you refresh your page nothing obvious happens…
 
-However if you open up the Chrome inspector and navigate to `Application` > `LocalStorage` you'll be able to see the the key and value listed out.
+However if you open up the Inspector and navigate to `Application` > `LocalStorage` > `<project name>` for Chrome, or `Storage` > `Local Storage` > `<project name>` for Firefox, you'll be able to see the the key and value listed out.
 
 ## Getting it back out…
 
@@ -32,7 +32,7 @@ When you created local storage you used `setItem`. To get an item out you need t
 localStorage.getItem("name");
 ```
 
-This will fetch the data with the key of `name`. Try wrapping that in an `alert()`…
+This will fetch the data with the key of `name`. Try wrapping that in an `console.log()`…
 
 ## Deleting it…
 
