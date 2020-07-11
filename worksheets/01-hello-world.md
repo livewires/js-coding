@@ -10,7 +10,7 @@ For LiveWires 2020 we're going to use a website called Glitch. You can write cod
 
 For this worksheet, you're going to need a Glitch project. This will be based on our starter project. Click [here](https://glitch.com/~livewires-01-hello-world), and "remix" the project to create your own copy that you can edit:
 
-![Remixing glitch project][img/glitch-remix.png]
+![Remixing glitch project](img/glitch-remix.png)
 
 You should now have a new Glitch project with four files in:
 
