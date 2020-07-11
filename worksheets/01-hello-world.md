@@ -4,11 +4,28 @@ One of the first tasks that everyone does when learning a new programming langua
 
 JavaScript (`JS`) runs in a web browser, so before we can start writing `JS` we need to first create a web page (an `HTML` file). Then, with the `HTML` we can include our `JS`.
 
+## Glitch
+
+For LiveWires 2020 we're going to use a website called Glitch. You can write code and share it with people very easily. 
+
+For this worksheet, you're going to need a Glitch project. This will be based on our starter project. Click [here](https://glitch.com/~livewires-01-hello-world), and "remix" the project to create your own copy that you can edit:
+
+![Remixing glitch project][img/glitch-remix.png]
+
+You should now have a new Glitch project with four files in:
+
+- `.env` (This can be ignored)
+- `README.md`
+- `index.html`
+- `script.js`
+
+Note: anonymous projects expire on Glitch after 5 days. If you wish to keep your code after LiveWires, you will need to either download the code, or create an account.
+
 ## Hello World in HTML…
 
 If you have done the Web Building LiveWires course this will be _very_ familiar to you.
 
-Open up your text editor (like Visual Studio Code, or Sublime text)and create a new file called `index.html`. Then inside your `HTML` file write the following:
+Open up the file called `index.html`. Then inside your `HTML` file write the following:
 
 ```HTML
 <!DOCTYPE html>
@@ -24,7 +41,7 @@ Open up your text editor (like Visual Studio Code, or Sublime text)and create a 
 </html>
 ```
 
-Now head to your web browser and open the `HTML` file that you have created.
+Now click `Show` at the top of the Glitch window
 
 You should get an blank page. Nothing special there.
 
@@ -34,24 +51,23 @@ Time to fix that. Everything that appears on a web page gets added in between th
   <h1>Hello World</h1>
 ```
 
-Save the file and refresh your page.
+Glitch should automatically refresh the page. 
 
 ## Hello world in JavaScript…
 
 Right, that's a good start… but `HTML` is not `JS`. HTML gives structure to a webpage, but `JS` makes it interactive.
 
-First, in the same folder as your `index.htm` file, create a new file called `script.js`.
+First, in the same Glitch project, find the file called `script.js`.
 
-Next in your `script.js` file add the lines…
+Next in your `script.js` file add the line…
 
 ```JavaScript
-  alert('Alert!');
-  console.log('Console log!');
+console.log('Console message!');
 ```
 
-Save that, and head back to your browser and refresh the page…
+Save that, and press the refresh button at the top of the page preview, and open up your browser console again. Normally this is F12, or right click on the page and select `Inspect`. It might help to hide errors and warnings. Can you spot the `Console message!` message?
 
-Nothing happened because `index.html` doesn't know about `script.js` We need to let the `HTML` know that `script.js` exists. We can do that by adding a `<script>` tag to the `HTML`.
+No? Nothing happened because `index.html` doesn't know about `script.js` We need to let the `HTML` know that `script.js` exists. We can do that by adding a `<script>` tag to the `HTML`.
 
 This tag can be put in almost anywhere in the `HTML` tag, but to keep everything clean and separate we'll put it as the last thing before the closing `</body>` tag. Go back into `index.html` and update the contents of `<body>`:
 
@@ -64,11 +80,11 @@ This tag can be put in almost anywhere in the `HTML` tag, but to keep everything
 </html>
 ```
 
-Now when you reload the page you should get an alert that says 'Alert!' But what about the line `console.log()` that we added? That isn't seen on the page, but is hidden in the Javascript console. We'll be using this a lot in the future… Go into your browser, right click on the page and select `inspect`. In the window that appeared you should see the text `Console log!` displayed in the console section.
+Now when you reload the preview you should see the `Console message!` displayed in the console section. 
 
 ## Explore
 
-Experiment with putting different content into `alert()` and `console.log()`.
+Experiment with putting different content inside the brackets of the function call `console.log()`.
 
 Try putting in some simple maths like `1 + 1`…
 
