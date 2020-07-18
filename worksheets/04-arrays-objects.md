@@ -61,10 +61,17 @@ Writing code out like this is called writing pseudocode. It can be very useful t
 For an array there is an alternative way to loop through all the contents as shown below. `array` would need to be the name of the array you are looping around and then `item` would be the individual item in the array. This will run the code block for each item in the array. 
 
 ```JS
-for (item in array) {
+for (item of array) {
   // code block to be executed
 }
 ```
+
+```JS
+for (car of cars) {
+  console.log(car);
+}
+```
+
 
 ### Challenge
 
