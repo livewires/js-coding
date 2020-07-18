@@ -69,7 +69,7 @@ Save that, and press the refresh button at the top of the page preview, and open
 
 No? Nothing happened because `index.html` doesn't know about `script.js` We need to let the `HTML` know that `script.js` exists. We can do that by adding a `<script>` tag to the `HTML`.
 
-This tag can be put in almost anywhere in the `HTML` tag, but to keep everything clean and separate we'll put it as the last thing before the closing `</body>` tag. Go back into `index.html` and update the contents of `<body>`:
+It's really important for these worksheets that the script is the very last thing before the closing `</body>` tag. Go back into `index.html` and update the contents of `<body>`:
 
 ```HTML
   ...
