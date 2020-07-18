@@ -11,7 +11,7 @@ Let's start with arrays...
 The easiest way to create a JavaScript array is using square brackets `[...]` also known as an array literal. Let's create an array called `cars` which stores the names of some car makes. Write this in your `script.js` file.
 
 ```JS
-var cars = ['toyota', 'suzuki', 'bmw', 'peugot', 'jaguar']
+var cars = ['toyota', 'suzuki', 'bmw', 'peugeot', 'jaguar'];
 ```
 
 Each value in the array has an index which tells you where in the array the value is stored. We need to remember that in JavaScript that the first index is always zero. The statement `array[index]` will give you the value located at that index in the array.
