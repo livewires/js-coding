@@ -66,13 +66,6 @@ for (item of array) {
 }
 ```
 
-```JS
-for (car of cars) {
-  console.log(car);
-}
-```
-
-
 ### Challenge
 
 Use one of these for loops to log to the console all the values in your `cars` array on separate lines?
