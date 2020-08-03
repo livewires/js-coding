@@ -13,11 +13,11 @@ Using what you have learnt over these work sheets work out how to make a to-do l
 - Could you make the list keep the completed tasks, but visually show that they are complete?
 - If you have done the `HTML` and `CSS` course; could you add `CSS` to improve the layout and design of the to-do list?
 
-Done this? Well done! But there's another one! - [Challenge 2: Scoreboard](worksheets/09-scoreboard.md).
+Done this? Well done! But there's another one! - [Challenge 2: Scoreboard](worksheets/09-challenge-scoreboard.md).
 
 ## Helpful extras
 
-Local Storage can only contain strings. This means that if you wanted store an array in it you'll need to first convert it into a string...
+Local Storage can only contain strings (i.e. plain text). This means that if you wanted store an array in it you'll need to first convert it into a string...
 
 To convert an array into a string you need to `stringify()` it:
 
