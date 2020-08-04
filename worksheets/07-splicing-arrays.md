@@ -13,7 +13,7 @@ To quote [Mozilla Developer Network](https://developer.mozilla.org/en-US/docs/We
 Say that you have an array of colours like this:
 
 ```JS
-var colours: [
+var colours = [
   'red',
   'yellow',
   'teal',
