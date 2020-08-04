@@ -69,7 +69,7 @@ Save that, and press the refresh button at the top of the page preview, and open
 
 No? Nothing happened because `index.html` doesn't know about `script.js` We need to let the `HTML` know that `script.js` exists. We can do that by adding a `<script>` tag to the `HTML`.
 
-It's really important for these worksheets that the script is the very last thing before the closing `</body>` tag. Go back into `index.html` and update the contents of `<body>`:
+Go back into `index.html` and update the contents of `<body>`:
 
 ```HTML
   ...
@@ -79,6 +79,9 @@ It's really important for these worksheets that the script is the very last thin
   </body>
 </html>
 ```
+
+> ⚠️ It's *really* important for these worksheets that the script is the very last thing before the closing `</body>` tag. When adding more `HTML` always add it above the `<script>` tag.
+
 
 Now when you reload the preview you should see the `Console message!` displayed in the console section. 
 
