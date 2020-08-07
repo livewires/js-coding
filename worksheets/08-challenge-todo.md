@@ -13,7 +13,7 @@ Using what you have learnt over these work sheets work out how to make a to-do l
 - Could you make the list keep the completed tasks, but visually show that they are complete?
 - If you have done the `HTML` and `CSS` course; could you add `CSS` to improve the layout and design of the to-do list?
 
-Done this? Well done! But there's another one! - [Challenge 2: Scoreboard](worksheets/09-challenge-scoreboard.md).
+Done this? Well done! But there's another one! - [Challenge 2: Scoreboard](09-challenge-scoreboard.md).
 
 ## Helpful extras
 
