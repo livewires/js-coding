@@ -6,7 +6,7 @@ JavaScript (`JS`) runs in a web browser, so before we can start writing `JS` we 
 
 ## Glitch
 
-For LiveWires 2020 we're going to use a website called Glitch. You can write code and share it with people very easily. 
+For this course we're going to use a website called Glitch. You can write code and share it with people very easily. 
 
 For this worksheet, you're going to need a Glitch project. This will be based on our starter project. Click [here](https://glitch.com/~livewires-01-hello-world), and "remix" the project to create your own copy that you can edit:
 
