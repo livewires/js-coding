@@ -13,7 +13,7 @@ A short JavaScript programming course for [LiveWires](https://livewires.org.uk)
 - [Creating HTML](worksheets/06-dom-manipulation.md)
 - [Splicing arrays](worksheets/07-splicing-arrays.md)
 - [Challenge 1: ToDo List](worksheets/08-challenge-todo.md)
-- [Challenge 2: Scoreboard](worksheets/09-scoreboard.md)
+- [Challenge 2: Scoreboard](worksheets/09-challenge-scoreboard.md)
 
 ## About LiveWires
 
