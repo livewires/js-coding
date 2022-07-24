@@ -8,7 +8,7 @@ JavaScript (`JS`) runs in a web browser, so before we can start writing `JS` we 
 
 For this course we're going to use a website called Glitch. You can write code and share it with people very easily. 
 
-For this worksheet, you're going to need a Glitch project. This will be based on our starter project. Click [here](https://glitch.com/~livewires-01-hello-world), and "remix" the project to create your own copy that you can edit:
+For this worksheet, you're going to need a Glitch project. This will be based on our starter project. Navigate to [glitch.com/~livewires-01-hello-world](https://glitch.com/~livewires-01-hello-world), and "remix" the project to create your own copy that you can edit:
 
 ![Remixing glitch project](img/glitch-remix.png)
 
@@ -41,9 +41,9 @@ Open up the file called `index.html`. Then inside your `HTML` file write the fol
 </html>
 ```
 
-Now click `Show` at the top of the Glitch window
+Now click `Preview` at the bottom of the Glitch window and select `Open preview pane`.
 
-You should get an blank page. Nothing special there.
+You should get a blank page on the right-hand side of the screen. Nothing special there.
 
 Time to fix that. Everything that appears on a web page gets added in between the two `<body>`...`</body>` tags. Between those two tags add:
 
@@ -51,7 +51,7 @@ Time to fix that. Everything that appears on a web page gets added in between th
   <h1>Hello World</h1>
 ```
 
-Glitch should automatically refresh the page. 
+Glitch should automatically refresh the preview pane.
 
 ## Hello world in JavaScript…
 
