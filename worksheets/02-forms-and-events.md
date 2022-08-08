@@ -14,6 +14,8 @@ Let's add a simple `HTML` form to our page. Go into your `index.html` file and a
 </form>
 ```
 
+> 💡 **TIP**: when copying code from Github or other sources, it is good practice to check the spacing at the start of each line (indentation) is correct for the where you paste the code into. Do your `form` and `div` tags line up?
+
 Refresh the page and you should have a happy little button. If you click it… very little will happen. But that's fine.
 
 ## Adding interactivity with events
