@@ -33,9 +33,13 @@ var a = 17;
 
 You’ll see that it returns the value as `undefined`. undefined just means that the thing you typed doesn’t really have a value. However, this did something else: it created a variable named `a`.
 
-Now try typing `a` on the console. You should see that you get back
+Now try typing `a` on the console. You should see that you get back `17`.
 
-- Variables are a way of giving names to values so that you can use them later.
+```js
+a
+```
+
+> ℹ️ Variables are a way of giving names to values so that you can use them later.
 
 Try typing these:
 
@@ -44,7 +48,9 @@ var b = 12;
 var c = a + b;
 ```
 
-Now look at the values of b and c. See how it’s storing the values of these expressions?
+Now look at the values of `b` and `c`. Do this by typing their names on the console, like you did for `a`.
+
+See how it’s storing the values of these expressions?
 
 A line starting with `var` is a variable definition. You should use this whenever you are creating a new variable.
 
