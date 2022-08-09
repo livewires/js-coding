@@ -10,9 +10,12 @@ JavaScript (`JS`) runs in a web browser, so before we can start writing `JS` we 
 
 Open up the code editor (for example, VS Code) on the PC you are using and open up your named folder. Create a file named `index.html` in your named folder.
 
+<details>
+  <summary>If you're doing this at home…</summary>
+
 ### Glitch
 
-If you are doing this course outside of LiveWires, you can use a website called Glitch that allows you to write code and share it with people very easily. 
+If you are doing this course outside of LiveWires, you can use a website called Glitch that allows you to write code and share it with people very easily.
 
 For this worksheet, you're going to need a Glitch project. This will be based on our starter project. Navigate to [glitch.com/~livewires-01-hello-world](https://glitch.com/~livewires-01-hello-world), and "remix" the project to create your own copy that you can edit:
 
@@ -26,6 +29,8 @@ You should now have a new Glitch project with four files in:
 - `script.js`
 
 Note: anonymous projects expire on Glitch after 5 days. If you wish to keep your code after LiveWires, you will need to either download the code, or create an account.
+
+</details>
 
 ## Hello World in HTML…
 
@@ -88,16 +93,14 @@ Go back into `index.html` and update the contents of `<body>`:
 </html>
 ```
 
-> ⚠️ It's *really* important for these worksheets that the script is the very last thing before the closing `</body>` tag. When adding more `HTML` always add it above the `<script>` tag.
+> ⚠️ It's _really_ important for these worksheets that the script is the very last thing before the closing `</body>` tag. When adding more `HTML` always add it above the `<script>` tag.
 
-
-Now when you reload the preview you should see the `Console message!` displayed in the console section. 
+Now when you reload the preview you should see the `Console message!` displayed in the console section.
 
 ## Explore
 
 Experiment with putting different content inside the brackets of the function call `console.log()`.
 
 Try putting in some simple maths like `1 + 1`…
-
 
 Now let's look at some [Forms and Events](02-forms-and-events.md).
