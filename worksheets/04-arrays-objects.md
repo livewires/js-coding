@@ -38,13 +38,16 @@ for (var i = 0; i < 5; i++) {
 
 Let's break this down a bit. Inside the `( )` we set up the loop using the variable `i` to control it, using three statements, separated by semi-colons (`;`).
 
-* The first statement `i = 0` declares `i` (notice we don't need `var` here) and sets it to the value it should start with (this will nearly always be 0).
-* The second statement `i < 5` indicates the condition(s) in which the loop will run. This is checked each time before we run the code inside the `{ }`. Whilst it resolves to `true` the loop will keep going round. The first time it resolves to `false` it will not run again.
-* The third statement `i++` increases the value of the variable `i` by 1 each time the code block in the loop is executed.
+- The first statement `i = 0` declares `i` (notice we don't need `var` here) and sets it to the value it should start with (this will nearly always be 0).
+- The second statement `i < 5` indicates the condition(s) in which the loop will run. This is checked each time before we run the code inside the `{ }`. Whilst it resolves to `true` the loop will keep going round. The first time it resolves to `false` it will not run again.
+- The third statement `i++` increases the value of the variable `i` by 1 each time the code block in the loop is executed.
 
 Then we can put code inside the loop, between the `{ }`. We would need to use `i` as an array index to access the array value - like `cars[i]`. So the first time round the loop this would be the same as `cars[0]`, second time `cars[1]` and so on and the last time would be `cars[4]`.
 
 For for loop acts like this set of instructions:
+
+> **Note**: this isn't real code… don't try and copy and paste it!
+
 ```
 1  Set i to 0
 2  If i is less than 5...
@@ -53,12 +56,11 @@ For for loop acts like this set of instructions:
 5      Loop back to line 2
 ```
 
-Writing code out like this is called writing pseudocode. It can be very useful to write down ideas like this, without needing to worry about a computer understanding them. 
-
+Writing code out like this is called writing pseudocode. It can be very useful to write down ideas like this, without needing to worry about a computer understanding them.
 
 ### For..in loop
 
-For an array there is an alternative way to loop through all the contents as shown below. `array` would need to be the name of the array you are looping around and then `item` would be the individual item in the array. This will run the code block for each item in the array. 
+For an array there is an alternative way to loop through all the contents as shown below. `array` would need to be the name of the array you are looping around and then `item` would be the individual item in the array. This will run the code block for each item in the array.
 
 ```JS
 for (item of array) {
@@ -93,7 +95,7 @@ That's the array basics out the way, now let's look at objects...
 The easiest way to create a JavaScript object is using curly brackets `{...}`, also known as an object literal. Let's create a car object. Put this in your script file.
 
 ```JS
-var car = {make: 'VW', model: 'Beetle'}
+var car = {make: 'VW', model: 'Beetle'};
 ```
 
 ## Accessing and modifying properties
@@ -120,8 +122,8 @@ Then, using a loop, like the one [above](#for%20loop) generate an object that co
 
 ```JS
 {
-  'car': 'ford',
-  'color': 'signal orange'
+  car: 'ford',
+  color: 'signal orange'
 }
 ```
 

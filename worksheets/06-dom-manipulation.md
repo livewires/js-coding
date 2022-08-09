@@ -32,7 +32,7 @@ var newContent = `
     <h2>Hello</h2>
     <p>This will be inserted… like magic</p>
   </div>
-`
+`;
 ```
 
 Finally add the `newContent` to the `container`:

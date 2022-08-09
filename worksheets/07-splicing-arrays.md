@@ -20,7 +20,7 @@ var colours = [
   'blue',
   'indigo',
   'violet'
-]
+];
 ```
 
 Suddenly you realise that you've missed your favourite colour; where is orange? It needs to be added after red… This is where `splice` is helpful.

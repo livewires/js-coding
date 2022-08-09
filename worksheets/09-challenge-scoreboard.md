@@ -13,5 +13,4 @@ Create a score board where a user can create a list of names and then keep a run
 - If a user gets negative points in a round, or in total visually show that.
 - When the game ends, reorder the list with the winner at the top and the loser at the bottom
 
-
 If you've done all that, well done! You've run out of things! Maybe you find a way to improve one of your challenges with even more features?
