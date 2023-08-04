@@ -118,12 +118,12 @@ Start by creating an array of colour names.
 
 Then create a different array of car names.
 
-Then, using a loop, like the one [above](#for%20loop) generate an object that contains a random car name and a random color. The aim is to get an object that looks like this:
+Then, using a loop, like the one [above](#for%20loop) generate an object that contains a random car name and a random colour. The aim is to get an object that looks like this:
 
 ```JS
 {
   car: 'ford',
-  color: 'signal orange'
+  colour: 'signal orange'
 }
 ```
 

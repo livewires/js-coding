@@ -22,7 +22,7 @@ Refresh the page and you should have a happy little button. If you click it… v
 
 `JS` can select items within the `HTML` to provide interactivity with it… Our form is good… but we want something to happen when we click the submit button.
 
-First in our `JS` we need to find the `button`; we do this by using `document.querySelector` and looking for the element's ID:
+First in our `JS` we need to find the `button`; we do this by using `document.querySelector` and looking for the element's class:
 
 ```JS
 var submitButton = document.querySelector('.submit-button');
@@ -52,7 +52,7 @@ Now add a text field to the form, like this:
 </div>
 ```
 
-Remember how we got a variable for the button element, using its ID? We can do the same for the text field:
+Remember how we got a variable for the button element, using its class? We can do the same for the text field:
 
 ```JS
 var nameField = document.querySelector('.name-field');
